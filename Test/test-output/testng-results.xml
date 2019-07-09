@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21" started-at="2019-07-09T05:05:19Z" finished-at="2019-07-09T05:05:19Z">
+    <groups>
+      <group name="P0">
+        <method signature="TestGrouping.TestA()[pri:0, instance:TestGroup.Test.TestGrouping@2669b199]" name="TestA" class="TestGroup.Test.TestGrouping"/>
+        <method signature="TestGrouping.TestD()[pri:0, instance:TestGroup.Test.TestGrouping@2669b199]" name="TestD" class="TestGroup.Test.TestGrouping"/>
+      </group> <!-- P0 -->
+      <group name="P1">
+        <method signature="TestGrouping.TestB()[pri:0, instance:TestGroup.Test.TestGrouping@2669b199]" name="TestB" class="TestGroup.Test.TestGrouping"/>
+      </group> <!-- P1 -->
+      <group name="Regression">
+        <method signature="TestGrouping.TestA()[pri:0, instance:TestGroup.Test.TestGrouping@2669b199]" name="TestA" class="TestGroup.Test.TestGrouping"/>
+        <method signature="TestGrouping.TestB()[pri:0, instance:TestGroup.Test.TestGrouping@2669b199]" name="TestB" class="TestGroup.Test.TestGrouping"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="21" started-at="2019-07-09T05:05:19Z" finished-at="2019-07-09T05:05:19Z">
+      <class name="TestGroup.Test.TestGrouping">
+        <test-method status="PASS" signature="TestA()[pri:0, instance:TestGroup.Test.TestGrouping@2669b199]" name="TestA" duration-ms="7" started-at="2019-07-09T10:35:19Z" finished-at="2019-07-09T10:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="TestB()[pri:0, instance:TestGroup.Test.TestGrouping@2669b199]" name="TestB" duration-ms="1" started-at="2019-07-09T10:35:19Z" finished-at="2019-07-09T10:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestB -->
+        <test-method status="PASS" signature="TestD()[pri:0, instance:TestGroup.Test.TestGrouping@2669b199]" name="TestD" duration-ms="1" started-at="2019-07-09T10:35:19Z" finished-at="2019-07-09T10:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestD -->
+      </class> <!-- TestGroup.Test.TestGrouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
